@@ -1,0 +1,1 @@
+draw_sprite(titleindex,0,0 + irandom_range(-1,1),sety + irandom_range(-1,1))

@@ -1,0 +1,1 @@
+msgtext = "Press X to destroy blocks!"

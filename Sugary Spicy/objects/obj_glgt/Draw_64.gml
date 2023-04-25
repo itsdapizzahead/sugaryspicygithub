@@ -1,0 +1,1 @@
+draw_sprite(spr, -1,480, high);

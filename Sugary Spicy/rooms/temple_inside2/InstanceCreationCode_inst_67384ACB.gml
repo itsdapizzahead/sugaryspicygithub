@@ -1,0 +1,1 @@
+yourtext = "IM TOO LAZY LOL"

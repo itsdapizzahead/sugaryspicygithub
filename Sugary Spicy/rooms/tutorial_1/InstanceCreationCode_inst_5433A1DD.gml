@@ -1,0 +1,1 @@
+msgtext = "You can only destroy" + chr(10) + "this purple blocks with grabbing"

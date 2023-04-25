@@ -1,0 +1,1 @@
+draw_sprite(spr_oops, image_index, 0, 0)
