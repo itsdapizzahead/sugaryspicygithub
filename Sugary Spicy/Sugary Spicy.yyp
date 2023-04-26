@@ -48,7 +48,6 @@
     {"id":{"name":"spr_candythief_win","path":"sprites/spr_candythief_win/spr_candythief_win.yy",},"order":78,},
     {"id":{"name":"tutorial_escape","path":"rooms/tutorial_escape/tutorial_escape.yy",},"order":7,},
     {"id":{"name":"spr_player_flushed","path":"sprites/spr_player_flushed/spr_player_flushed.yy",},"order":22,},
-    {"id":{"name":"obj_manual","path":"objects/obj_manual/obj_manual.yy",},"order":23,},
     {"id":{"name":"spr_toppinshroom_panic","path":"sprites/spr_toppinshroom_panic/spr_toppinshroom_panic.yy",},"order":4,},
     {"id":{"name":"sfx_stolen","path":"sounds/sfx_stolen/sfx_stolen.yy",},"order":47,},
     {"id":{"name":"pizzy","path":"sprites/pizzy/pizzy.yy",},"order":81,},
