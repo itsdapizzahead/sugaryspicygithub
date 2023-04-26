@@ -303,7 +303,6 @@
     {"id":{"name":"spr_player_Sjumpcancelstart","path":"sprites/spr_player_Sjumpcancelstart/spr_player_Sjumpcancelstart.yy",},"order":21,},
     {"id":{"name":"scream","path":"sounds/scream/scream.yy",},"order":37,},
     {"id":{"name":"spr_bumpeffect","path":"sprites/spr_bumpeffect/spr_bumpeffect.yy",},"order":94,},
-    {"id":{"name":"obj_wordhitbox","path":"objects/obj_wordhitbox/obj_wordhitbox.yy",},"order":65,},
     {"id":{"name":"spr_rankhud_c","path":"sprites/spr_rankhud_c/spr_rankhud_c.yy",},"order":2,},
     {"id":{"name":"spr_endcredit","path":"sprites/spr_endcredit/spr_endcredit.yy",},"order":41,},
     {"id":{"name":"spr_mach3effect","path":"sprites/spr_mach3effect/spr_mach3effect.yy",},"order":92,},
