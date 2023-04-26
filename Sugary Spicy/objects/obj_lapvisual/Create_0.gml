@@ -2,7 +2,7 @@ if !global.lap {
 	audio_stop_sound(Lap2)
 	visible = false
 }
-if global.lap {
+if global.panic and global.lap {
 	visible = true	
 }
 scr_playsound(Lap2,true)
