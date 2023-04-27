@@ -226,9 +226,11 @@ if scr_buttoncheck_pressed(vk_f5) {
 		obj_shell.open()
 	}
 }
+/*
 if global.timer[0] = 0 and global.timer[1] = 0{
 	room_goto(timesup)
 }
+*/
 if scr_buttoncheck_pressed(ord("P")) {
 	global.panic = !global.panic
 	room_restart()

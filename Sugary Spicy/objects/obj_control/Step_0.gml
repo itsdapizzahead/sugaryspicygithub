@@ -55,6 +55,9 @@ if global.panic
 	if global.firemode = true {
 		global.firemode = false
 	}
+	if global.timer[0] <= 0 {
+		audio_sound_pitch(d_escape,irandom_range(0.95,1.05))
+	}
 }
 if global.armorytimer
 {
