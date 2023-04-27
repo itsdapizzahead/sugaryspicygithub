@@ -55,8 +55,17 @@ if global.panic
 	if global.firemode = true {
 		global.firemode = false
 	}
-	if global.timer[0] <= 0 {
-		audio_sound_pitch(d_escape,irandom_range(0.95,1.05))
+	if global.timer[0] <= 2 {
+		//audio_sound_pitch(d_escape,irandom_range(0.95,1.05))
+		switch (gear)
+		{
+			case 1: audio_sound_pitch(d_escape, 0.8); break;
+			case 2: audio_sound_pitch(d_escape, 0.9); break;
+			case 3: audio_sound_pitch(d_escape, 0.95); break;
+			case 4: audio_sound_pitch(d_escape, 1); break;
+			case 5: audio_sound_pitch(d_escape, 1.2); break;
+		}
+		gear = random(choose(1,2,3,4,5))
 	}
 }
 if global.armorytimer
