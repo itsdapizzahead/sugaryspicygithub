@@ -15,7 +15,6 @@ function scr_plr_normal() {
 				scr_playbreakdance(mu_et)
 			}
 			instance_create(x,y - 50,obj_beatbox)
-			instance_create(x + choose(10,-20,-50,50,30,40,32),y - 50,obj_beatboxeffect)
 		}
 		instance_create(x,y,obj_beatboxparticle)
 		exit;

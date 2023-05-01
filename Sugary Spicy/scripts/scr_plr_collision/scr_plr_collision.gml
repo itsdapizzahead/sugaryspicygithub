@@ -50,14 +50,16 @@ function scr_plr_collision(){
 */
 
 function scr_plr_collision() {
-	if place_meeting(x + hsp, y, obj_slope)
+	if place_meeting(x, y, obj_slope)
 	{
-		while place_meeting(x + hsp, y, obj_slope)
-			y--
+		while place_meeting(x + sign(hsp), y, obj_slope)
+			if instance_place(x + sign(hsp), y, obj_slope).image_xscale == self.image_xscale
+			or instance_place(x + sign(hsp), y, obj_slope).image_xscale != self.image_xscale {
+				y--
+			}
 		
 			vsp = 0
 	}
-	
 	// let's try doing the platform separately
 	// it might not be the best for performance, but
 	// I honestly just want SOME people to stop fucking complaining

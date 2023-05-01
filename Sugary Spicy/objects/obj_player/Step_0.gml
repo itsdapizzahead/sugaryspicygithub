@@ -59,6 +59,15 @@ if dogravity {
 	if !onground {
 		vsp += 0.4
 	}
+	if place_meeting(x, (y + 1), obj_slope)
+	{
+		var Slope = instance_place(x, (y + 1), obj_slope)
+		var SlopeXscale = abs(Slope.image_xscale)
+		var targetAngle = ((25 / SlopeXscale) * sign(Slope.image_xscale))
+		image_angle = targetAngle
+	}
+	else
+		image_angle = 0
 	scr_plr_collision()
 }
 

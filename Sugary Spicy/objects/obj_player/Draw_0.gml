@@ -7,8 +7,8 @@ if invuln {
 	shader_set(shd_invuln)
 	shader_set_uniform_f(shader_get_uniform(shd_invuln, "time"), invulm_timer)
 }
-draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, 1, 0, c_white, 1)
+draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, 1, image_angle, c_white, 1)
 if global.firemode = true {
-	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, 1, 0, c_red, 1)
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, 1, image_angle, c_red, 1)
 }
 if usingShader shader_reset()

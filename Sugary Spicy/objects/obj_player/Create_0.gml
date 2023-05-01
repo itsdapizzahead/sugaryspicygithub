@@ -64,3 +64,4 @@ character = "P"
 key_left = scr_buttoncheck_pressed(vk_left)
 key_right = scr_buttoncheck_pressed(vk_right)
 meets_platform = place_meeting(x,y,obj_platform)
+image_angle = 0

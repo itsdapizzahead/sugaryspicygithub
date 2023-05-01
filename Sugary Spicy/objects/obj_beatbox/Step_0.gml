@@ -18,3 +18,9 @@ if obj_player.sprite_index != spr_player_hjump_prep {
 if (image_alpha <= 0) {
     instance_destroy(self)
 }
+buffer--
+if buffer < 0
+{
+	buffer = 15	
+	instance_create_depth(x - random_range(-48,48),y - 7,depth,obj_beatboxeffect)
+}

@@ -5,4 +5,6 @@ if (instance_number(object_index) > 1)
 }
 vs = 0
 
+buffer = 5
+
 depth = 1
